@@ -2,7 +2,6 @@ import React from 'react'
 import classes from './Layout.css'
 import MenuToggle from '../../components/Navigation/MenuToggle/MenuToggle'
 import Drawer from '../../components/Navigation/Drawer/Drawer'
-import Backdrop from '../../components/UI/Backdrop/Backdrop'
 
 
 class Layout extends React.Component {
