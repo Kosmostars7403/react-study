@@ -5,7 +5,7 @@ function isInvalid({valid, touched, shouldValidate}) {
   return !valid && shouldValidate && touched
 }
 
-export default props => {
+const Input = props => {
   const inputType = props.type || 'text'
   const cls = [classes.Input]
   const htmlFor = `${inputType}-${Math.random()}`
@@ -31,3 +31,5 @@ export default props => {
     </div>
   )
 }
+
+export default Input
