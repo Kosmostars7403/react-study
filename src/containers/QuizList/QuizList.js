@@ -35,7 +35,6 @@ class QuizList extends Component {
                   { this.renderQuizes() }
                 </ul>
           }
-
         </div>
       </div>
       )
